@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Emi Tanaka">
-<meta name="dcterms.date" content="2022-07-18">
+<meta name="author" content="Rachitha Werake">
+<meta name="dcterms.date" content="2024-09-25">
 
-<title>blog-template - Welcome To My Blog Template</title>
+<title>Blog Nest - Birds on the Brink</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -61,6 +95,9 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+<script src="../../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -73,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">blog-template</span>
+    <span class="navbar-title">Blog Nest</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -87,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/etc5523-2022" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/rwer0002" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -102,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog Template</h1>
+      <h1 class="title">Birds on the Brink</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">news</div>
               </div>
@@ -115,14 +152,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Emi Tanaka </p>
+               <p>Rachitha Werake </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">July 18, 2022</p>
+        <p class="date">September 25, 2024</p>
       </div>
     </div>
     
@@ -140,8 +177,339 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
+<p><img src="birds.jpg" class="img-fluid"></p>
+<p><blog_heading> Problem Description </blog_heading></p>
+<p>Is Agriculture really the main factor to the decline of grasslands birds in North America?</p>
+<p>In first glance, it may seem that agriculture is the culprit to the decline, especially since that agriculture and industrial farming is increasingly getting bigger. Additionally, this would also align with various online journals and reports. For instance, an online journal published in 2018, states that the increase in agriculture and use of pesticide in industrial farming is one of the biggest reasons behind the decline in grassland/farmland birds (Stanton R.L et al.&nbsp;2018)</p>
+<p>To get the answer to the question, an analysis needs to be done for both the agriculture/industrial farming in North America and the grassland bird population.</p>
+<p><blog_heading> Methodology And Data Description </blog_heading></p>
+<p>To get to a conclusion, the following steps were needed to be done.</p>
+<p>The first step was to get the necessary data. A survey called <a href="https://feederwatch.org/about/project-overview/">Project FeederWatch</a>, that is undertaken by volunteers, records sightings of different species of birds (Project FeederWatch n.d.). This data can be used to examine the bird population within North America.</p>
+<p>To analyse the changes over time, data for various years were needed to be downloaded. The Project FeederWatch contains recorded observations from 1988 to 2021. The data from these years were combined into a singular dataset. Additionally, the dataset with the combined years needed to be filtered to only show grassland birds. Moreover, the variable that shows the total population was renamed to aid in readability. This is shown below.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>raw_data_2021 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/PFW_all_2021_2024_May2024_Public.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>raw_data_2016 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/PFW_all_2016_2020_May2024_Public.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>raw_data_2011 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/PFW_all_2011_2015_May2024_Public.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>) </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>raw_data_2006 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/PFW_all_2006_2010_May2024_Public.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>) </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>raw_data_2001 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/PFW_all_2001_2005_May2024_Public.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>raw_data_1996 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/PFW_all_1996_2000_May2024_Public.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>raw_data_1988 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/PFW_all_1988_1995_May2024_Public.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>raw_data_combined <span class="ot">&lt;-</span> <span class="fu">rbind</span>(raw_data_1996, raw_data_1988, raw_data_2001, raw_data_2006, raw_data_2011, raw_data_2016, raw_data_2021) <span class="sc">%&gt;%</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">readr.show_col_types =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>bird_data <span class="ot">&lt;-</span> raw_data_combined <span class="sc">%&gt;%</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(SPECIES_CODE <span class="sc">==</span> <span class="fu">c</span>(<span class="st">"sprpip"</span>, <span class="st">"henspa"</span>, <span class="st">"graspa"</span>, <span class="st">"lecspa"</span>, <span class="st">"savspa"</span>, <span class="st">"savspa4"</span>,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>         <span class="st">"ipsspa"</span>, <span class="st">"bldspa"</span>, <span class="st">"savspa3"</span>, <span class="st">"labspa"</span>, <span class="st">"wesmea"</span>, <span class="st">"mcclon"</span>, <span class="st">"grpchi"</span>,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>         <span class="st">"greprc1"</span>, <span class="st">"baispa"</span>, <span class="st">"chclon"</span>, <span class="st">"shtgro"</span>, <span class="st">"lobcur"</span>, <span class="st">"larbun"</span>, <span class="st">"horlar"</span>,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>         <span class="st">"horlar3"</span>, <span class="st">"horlar1"</span>, <span class="st">"sedwre1"</span>, <span class="st">"easmea"</span>, <span class="st">"easmea2"</span>, <span class="st">"dickci"</span>, <span class="st">"norbob"</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>         <span class="st">"norbob1"</span>, <span class="st">"x00688"</span>, <span class="st">"ferhaw"</span>, <span class="st">"burowl"</span>, <span class="st">"logshr"</span>, <span class="st">"y00620"</span>, <span class="st">"casspa"</span>, </span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>         <span class="st">"fiespa"</span>, <span class="st">"aplfal"</span>, <span class="st">"lilmea2"</span>, <span class="st">"comnig"</span>, <span class="st">"sonspa"</span>, <span class="st">"sonspa2"</span>, <span class="st">"swaspa"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Year) <span class="sc">%&gt;%</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(Year) <span class="sc">%&gt;%</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>(Year) <span class="sc">%&gt;%</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="st">"Population"</span> <span class="ot">=</span> <span class="st">"n"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">&gt;</span> <span class="dv">1999</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><a href="#tbl-table1">Table&nbsp;1</a> below shows the final data as a table, once the above data preparation is done. The following variables are included within the final dataset:</p>
+<ul>
+<li><strong>Population:</strong> Total population of grassland birds in North America.</li>
+<li><strong>Year:</strong> This variable corresponds to the year in which each observation has occurred.</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:350px; ">
+<div id="tbl-table1" class="anchored">
+<table data-quarto-postprocess="true" class="table table-sm table-striped small">
+<caption>Table&nbsp;1: Grassland Bird Population - North America</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: right; position: sticky; top: 0; background-color: #FFFFFF;">Year</th>
+<th data-quarto-table-cell-role="th" style="text-align: right; position: sticky; top: 0; background-color: #FFFFFF;">population</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2000</td>
+<td style="text-align: right;">426</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2001</td>
+<td style="text-align: right;">490</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2002</td>
+<td style="text-align: right;">480</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2003</td>
+<td style="text-align: right;">514</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2004</td>
+<td style="text-align: right;">507</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2005</td>
+<td style="text-align: right;">560</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2006</td>
+<td style="text-align: right;">505</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2007</td>
+<td style="text-align: right;">591</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2008</td>
+<td style="text-align: right;">578</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2009</td>
+<td style="text-align: right;">589</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2010</td>
+<td style="text-align: right;">609</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2011</td>
+<td style="text-align: right;">604</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2012</td>
+<td style="text-align: right;">619</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2013</td>
+<td style="text-align: right;">650</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2014</td>
+<td style="text-align: right;">817</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2015</td>
+<td style="text-align: right;">723</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2016</td>
+<td style="text-align: right;">739</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2017</td>
+<td style="text-align: right;">773</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">810</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">864</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">1118</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">1297</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">1342</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">1180</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">858</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</div>
+</div>
+<p>Now, whats next was to find a source of comparison. The production of livestock and various crops was identified as one of the biggest types of industrial farming in North America. With this in mind, I was able to move my attention to find the necessary data. Data from the <a href="https://www.fao.org/home/en/">Food and Agriculture Organisation of the United Nations (FAO)</a> records data on how much of various livestock and crops were produced in North America. Due to the fact that the raw downloaded file from the FAO consist quite a number of variables, only the relevant variables were included; these are:</p>
+<ul>
+<li><strong>Area:</strong> This variable records the area of each observation. This is fixed to North America only.</li>
+<li><strong>Amount:</strong> Records the total amount (in tonnes) of livestock and crops produced within North America.</li>
+<li><strong>Year:</strong> This variable records what year in which each observation has occurred.</li>
+</ul>
+<p>Furthermore, to improve readability, the variable that holds the total amount of production for each year was renamed. The above described data preparation is shown below.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>agriculture_data <span class="ot">&lt;-</span> <span class="fu">read_xls</span>(<span class="st">"data/FAOSTAT_data_en_9-6-2024.xls"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">&gt;</span> <span class="dv">1999</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>( <span class="st">"Area"</span>, <span class="st">"Year"</span>, <span class="st">"Value"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="st">"Amount"</span> <span class="ot">=</span> <span class="st">"Value"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><a href="#tbl-table2">Table&nbsp;2</a> below shows the total production in tonnes for each of the years, from the year 2000 to 2022.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:350px; ">
+<div id="tbl-table2" class="anchored">
+<table data-quarto-postprocess="true" class="table table-sm table-striped small">
+<caption>Table&nbsp;2: Production of Livestock and Crops (Tonnes)</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: left; position: sticky; top: 0; background-color: #FFFFFF;">Area</th>
+<th data-quarto-table-cell-role="th" style="text-align: right; position: sticky; top: 0; background-color: #FFFFFF;">Year</th>
+<th data-quarto-table-cell-role="th" style="text-align: right; position: sticky; top: 0; background-color: #FFFFFF;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2000</td>
+<td style="text-align: right;">41565535</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2001</td>
+<td style="text-align: right;">42405505</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2002</td>
+<td style="text-align: right;">43016765</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2003</td>
+<td style="text-align: right;">43697369</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2004</td>
+<td style="text-align: right;">44403168</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2005</td>
+<td style="text-align: right;">44337790</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2006</td>
+<td style="text-align: right;">44570381</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2007</td>
+<td style="text-align: right;">46054336</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2008</td>
+<td style="text-align: right;">47420149</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2009</td>
+<td style="text-align: right;">46301694</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2010</td>
+<td style="text-align: right;">46393382</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2011</td>
+<td style="text-align: right;">46804305</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2012</td>
+<td style="text-align: right;">46933168</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2013</td>
+<td style="text-align: right;">47063410</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2014</td>
+<td style="text-align: right;">47175731</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2015</td>
+<td style="text-align: right;">47754226</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2016</td>
+<td style="text-align: right;">49274546</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2017</td>
+<td style="text-align: right;">50614968</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">51768012</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">53220144</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">52173485</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">52404055</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northern America</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">52744361</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</div>
+</div>
+<p>Now at first glance, both <a href="#tbl-table1">Table&nbsp;1</a> and <a href="#tbl-table2">Table&nbsp;2</a> make it difficult to make any meaningful conclusions, due to only showing figures/numbers. Due to this, a visual comparision needed to be made, in a form of plots.</p>
+<p><blog_heading> Analysis </blog_heading></p>
+<p>So, by using R and the various packages within it, a time series plot can be made for each of the data. The below plots show the plotted data from both Project Feeder Watch Survey and the Food and Agriculture Organisation of the United Nations (FAO).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-figA" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="index_files/figure-html/fig-figA-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Comparision Of Bird Population And Production Of Livestock And Crops</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Notice anything interesting from the plots in <a href="#fig-figA">Figure&nbsp;1</a> ? Well upon first inspection, each of the plots for the production of livestock and crops, and the population of grassland birds appear to follow a gradual increasing trend over the years. Now, there are noticeable fluctuations in both of the plots, with the population of grassland birds experiencing both a significant inline and decline within its trend, as shown at the end of the plot.</p>
+<p><blog_heading> Conclusion </blog_heading></p>
+<p>So linking back to the original question on if the growth of agriculture/industrial farming is the main factor to the decline in grassland birds in North America, the above plots clearly show that even though the production of livestock &amp; various crops gradually increase over the years, there doesn’t seem to be a noticeable adverse effect within the grassland bird population.</p>
+<p>Given that the growth of agriculture or industrial farming is not the leading factor to the decline of grassland birds in North America, what is? Well according to a news article published on <a href="https://news.vt.edu/articles/2024/01/VT_Expert_Bird_Populations.html#">Virginia Tech</a>, it states that cats and window collisions is another contributing factor to the number of bird deaths, with up-to one billion birds dying due to window collisions, and another 2.4 million deaths due to cats (VIRGINIA TECH 2024).</p>
+<p>So what does this all mean? does the growth of agriculture and industrial farming result in the decline of grasslands birds? Well, maybe, but for the case of North America, it does not appear to result in an adverse effect to the bird population. However, as this is only considering North America, conclusions for other regions cannot be made, so the growth of agriculture may very well be a leading factor to decline of grassland birds, just not in North America.</p>
+<p><blog_heading> References </blog_heading></p>
+<p>Project FeederWatch (n.d.) <em>PROJECT OVERVIEW,</em> Project FeederWatch, accessed 1 October 2024.https://feederwatch.org/about/project-overview/</p>
+<p>Stanton R.L, Morrissey C.A, Clark R.G (2018) ‘Analysis of trends and agricultural drivers of farmland bird declines in North America: A review’, <em>Agriculture, ecosystems &amp; environment</em>, 254:244-254, doi:10.1016/j.agee.2017.11.028</p>
+<p>VIRGINIA TECH (2024) <em>North America bird populations are declining; expert explains why</em>, VIRGINIA TECH, accessed 2 October 2024. <a href="https://news.vt.edu/articles/2024/01/VT_Expert_Bird_Populations.html#" class="uri">https://news.vt.edu/articles/2024/01/VT_Expert_Bird_Populations.html#</a></p>
 
 
 
