@@ -1,13 +1,35 @@
 ---
 title: "About"
-image: profile.jpg
+image: pic.jpg
 about:
-  template: jolla
+  template: trestles
+  image-shape: round
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
-
+      href: https://github.com/rwer0002
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rachitha-werake-a44b3a159/
+format:
+   html:
+    page-layout: full
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+
+<h2>Rachitha Werake</h2>
+
+
+Hey There!
+
+I am a current student at Monash University, where I am perusing a master
+degree in Business Analytics. Before studying my current degree, I completed my
+bachelor degree in Business (majoring in project management) at Deakin University. 
+
+Beyond my studies, I have a deep passion for landscape and wildlife photography.
+I enjoy spending my time outdoors with my camera, capturing the intricate moments 
+that may go unnoticed. Moreover, I thoroughly enjoy getting involved with various
+societies and clubs. For example, my time at Deakin University allowed me to 
+undertake an executive position for one of the university clubs. 
+
+Feel free to contact me using the the details on the left. 
