@@ -1,0 +1,38 @@
+/* css styles */
+.navbar-dark{
+  background-image: linear-gradient(to right, #97D9E1 , #D9AFD9);
+  color: #000000;
+  font-family: Verdana;
+}
+
+.quarto-title-banner{
+  background-color: #f2f2f2;
+  padding: 5px;
+
+}
+
+h1 {
+  color: black;
+  font-family: font-family: "Lucida Console", Monaco, monospace;
+  font-size: 20pt;
+}
+
+h2 {
+  color: black;
+  font-family: Sans-serif;
+}
+
+h3 {
+  color: #383A3C;
+  font-family: Sans-serif;
+  text-align: left;
+  font-weight: normal;
+  font-size: 12pt;
+  width: 50%;
+  float: left;
+}
+blog_heading {
+  color:#383A3C;;
+  font-family: font-family: "Lucida Console", Monaco, monospace;
+  font-size: 20pt
+}
